@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Intervalos no JavaScript</title>
+        <meta charset="utf-8">
+        <script>
+            let intervalo;
+
+            function mudarCor(){
+                intervalo = setInterval(flashText, 1000)
+            }
+
+            function flashText(){
+                let elementoDom = document.getElementById("demo");
+                elementoDom.style.color = elementoDom.style.color == 'red' ? 'blue' : 'red';
+            }
+
+            function pararCores(){
+                clearInterval(intervalo);
+            }
+        </script>
+    </head>
+    <body onload="mudarCor();">
+        <div id="demo">
+            <p>Olá Turma 44</p>
+        </div>
+
+        <button onclick="pararCores();"> PARAR </button>
+    </body>
+</html>

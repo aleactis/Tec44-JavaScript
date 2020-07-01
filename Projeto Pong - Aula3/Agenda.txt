@@ -1,0 +1,10 @@
+Aula 13
+
+- Projeto Pong - Aula 3:
+	manipulaMouseClick - ok
+	calculaMousePos - ok
+	desenharRede - ok
+	Exibe o vencedor - ok
+    Exibe o placar em uma determinada coordenada - ok
+
+- GitHub
